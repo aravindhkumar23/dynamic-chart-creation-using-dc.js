@@ -8,7 +8,7 @@ PreparedStatement stmt=null;
 String db = "db"; 
 try {    
     Class.forName("com.mysql.jdbc.Driver");
-    con = DriverManager.getConnection("jdbc:mysql://192.168.0.2/"+db, "root", "aaum");      
+    con = DriverManager.getConnection("jdbc:mysql://localhost/"+db, "root", "pass");      
    // out.println (db+ " database successfully opened.(msg from commonconn - connection)<br>");
 	}
 catch(SQLException e) {
